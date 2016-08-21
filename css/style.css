@@ -1,22 +1,30 @@
 body{
   margin: 0;
+  background-color: #ED8599;
+  color: white;
 }
+
 .container{
   position: relative;
   display: block;
   text-align: center;
 }
 
+#search{
+  float: right;
+  padding: 10px 12px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
     overflow: hidden;
-    background-color: #ED8599;
 }
 
 li {
-    float: left;
+  display: inline-block;
 }
 
 li a {
@@ -26,12 +34,21 @@ li a {
     padding: 10px 12px;
     text-decoration: none;
 }
-#search{
-  float: right;
-  padding: 10px 12px;
+
+li a:hover {
+    background-color: #FFF;
+    color: #ED8599;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+a {
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+img#wowpic {
+  width: 640px;
+  height: 400px;
 }
