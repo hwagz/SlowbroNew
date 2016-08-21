@@ -1,4 +1,4 @@
-var app = angular.module('angtemp',['ngRoute']);
+var app = angular.module('slowbro',['ngRoute']);
 
 app.config(function($routeProvider){
     $routeProvider
@@ -28,15 +28,9 @@ app.config(function($routeProvider){
   }])
   .controller('pokemonCtrl', ['$scope','$filter',function($scope, $filter) {
     $scope.page = "Pokemon";
-    $scope.msg = "Test message 1";
   }])
   .controller('wowCtrl', ['$scope','$filter',function($scope, $filter) {
     $scope.page = "World of Warcraft";
-    $scope.msg = "Test message 2";
-  }])
-  .controller('url3Ctrl', ['$scope','$filter',function($scope, $filter) {
-    $scope.page = "URL 3";
-    $scope.msg = "Test message 3";
   }])
   .filter('capitalize', function() {
     return function(input) {
