@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Slowbro202</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <link rel="shortcut icon" href="images/slowbro.ico" >
     <script>
@@ -22,20 +24,24 @@
 
   <body ng-app="slowbro">
 
-    <ul>
-      <li><a href="#/">Home</a></li>
-      <li><a href="#pokemon">Pokemon</a></li>
-      <li><a href="#wow">WoW</a></li>
-    <!--  <li id="search">
-        <input type="text" ng-model="searchTerm">
-        <button type="button" name="button">?</button>
-      </li> -->
-    </ul>
+    <div class="circle"></div>
+
+    <div class="headerBar">
+      <ul class="headerNav">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#pokemon">Pokemon</a></li>
+        <li><a href="#wow">WoW</a></li>
+      <!--  <li id="search">
+          <input type="text" ng-model="searchTerm">
+          <button type="button" name="button">?</button>
+        </li> -->
+      </ul>
+    </div>
+
 
     <div class="container">
       <div ng-view></div>
     </div>
-
 
 
 

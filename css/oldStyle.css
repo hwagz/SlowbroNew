@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-color: #ED8599;
+  color: white;
+}
+
+.container{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+#search{
+  float: right;
+  padding: 10px 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #ED8599;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFF;
+    color: #ED8599;
+}
+
+a {
+  color: white;
+}
+
+a:visited{
+  color: #ED8599;
+}
+
+
+
+ul#header li {
+  margin: 5px;
+}
+
+.circle {
+  position: relative;
+  margin: 20px;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("/images/home.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -20px 15px;
+  border: 4px solid black;
+  z-index: 10;
+}
+
+.headerBar {
+  position: absolute;
+  top: 140px;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+}
+
+img#wowpic {
+  width: 640px;
+  height: 400px;
+}
